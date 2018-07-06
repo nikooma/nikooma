@@ -9,12 +9,6 @@ use DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Crypt;
 use App\Model\Auth\UserManager;
-use App\Model\Callcenter\Ivr;
-use App\Model\Callcenter\Queue;
-use App\Model\Callcenter\Modules;
-use App\Model\Callcenter\Outcalls;
-use App\Model\Callcenter\Outbound;
-use App\Model\Sound\Sounds;
 use Session;
 
 class GClass extends Controller
@@ -36,6 +30,7 @@ class GClass extends Controller
 	public static function enTOfa($string) {
 	    return strtr($string, array('0'=>'۰', '1'=>'۱', '2'=>'۲', '3'=>'۳', '4'=>'۴', '5'=>'۵', '6'=>'۶', '7'=>'۷', '8'=>'۸', '9'=>'۹'));
 	}
+<<<<<<< HEAD
 	public static function getDestinationValue($destId) {
 	    switch($destId){
 			case "1":
@@ -44,6 +39,9 @@ class GClass extends Controller
 		}
 	}
 		
+=======
+	
+>>>>>>> 712a6e1edd6ba224e09eec66dca17a1c18d7ad66
 	public static function encryptStringE($str,$code){
 		// character table
 		$chars='1234567890!@#$%^&*()qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM ,<.>/?;:"[{]}\|`~';
