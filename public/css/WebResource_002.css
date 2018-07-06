@@ -1,0 +1,44 @@
+﻿.ajax__calendar_textBox{font-family:YekanWeb, YekanNumbers; height:26px}
+.ajax__calendar_validator{font-family:YekanWeb, YekanNumbers;}
+.ajax__calendar_image{cursor:pointer;padding-right:5px;}
+.ajax__calendar_lable{font-family:YekanWeb, YekanNumbers;}
+.ajax__calendar_container {padding:4px;position:absolute;cursor:default;width:200px;font-size:11px;text-align:center;font-family:YekanWeb, YekanNumbers;}
+.ajax__calendar_body {height:139px;width:170px;position:relative;overflow:hidden;margin:auto;}
+.ajax__calendar_days, .ajax__calendar_months, .ajax__calendar_years {top:0px;left:0px;height:139px;width:170px;position:absolute;text-align:center;margin:auto;}
+.ajax__calendar_container TABLE {font-size:13px;}
+ajax__calendar_containerTable {text-align:center !important;}
+ajax__calendar_tdCalendarBase{text-align:left !important;}
+.ajax__calendar_header {height:20px;width:100%;}
+.ajax__calendar_prev {cursor:pointer;width:15px;height:15px;float:left;background-repeat:no-repeat;background-position:center -20px;background-image:url(WebResource.axd?d=BDdhO4ymQNu-Z7AePhLP2GANk99Bb16WPMQdSmxiT0xlrMdyLf5em629J05JTvrfQs0jQ5K2NqjlaumvjNhbkjFRuYYPRhpv9Tzj0dXqLuGVDwAxJIdP3q5fNL2Nqy0TcGZBPkBrDBf6v3PrrgXr1g2&t=636304675702792359);}
+.ajax__calendar_next {cursor:pointer;width:15px;height:15px;float:right;background-repeat:no-repeat;background-position:center -32px;background-image:url(WebResource.axd?d=BDdhO4ymQNu-Z7AePhLP2GANk99Bb16WPMQdSmxiT0xlrMdyLf5em629J05JTvrfQs0jQ5K2NqjlaumvjNhbkjFRuYYPRhpv9Tzj0dXqLuGVDwAxJIdP3q5fNL2Nqy0TcGZBPkBrDBf6v3PrrgXr1g2&t=636304675702792359);}
+.ajax__calendar_title {cursor:pointer;font-weight:bold;}
+.ajax__calendar_footer {height:15px;}
+.ajax__calendar_lang{font-size:7pt;cursor:pointer;width:35px;height:15px;margin-top:5px;float:right;background-color:#1F2A98;color:#ffffff;}
+.ajax__calendar_today {cursor:pointer;padding-top:3px;font-size:7pt;}
+.ajax__calendar_dayname {height:17px;width:20px;text-align:right;padding:0 2px;}
+.ajax__calendar_day {height:17px;text-align:right;padding:0 2px;cursor:pointer;}
+.ajax__calendar_month {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+.ajax__calendar_year {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+.ajax__calendar_day_other {background-color:#ffffff;border-color:#ffffff;color:#646464;color:#dcdcdc;}
+.ajax__calendar{z-index:200;}
+.ajax__calendar .ajax__calendar_container {border:1px solid #646464;background-color:#ffffff;color:#000000;}
+.ajax__calendar .ajax__calendar_footer {border-top:1px solid #f5f5f5;}
+.ajax__calendar .ajax__calendar_dayname {border-bottom:1px solid #f5f5f5;}
+.ajax__calendar .ajax__calendar_day {border:1px solid #ffffff;}
+.ajax__calendar .ajax__calendar_month {border:1px solid #ffffff;font-size:7pt;}
+.ajax__calendar .ajax__calendar_year {border:1px solid #ffffff;}
+.ajax__calendar .ajax__calendar_prev:hover {background-position:center 4px;}
+.ajax__calendar .ajax__calendar_next:hover {background-position:center -8px;}
+.ajax__calendar .ajax__calendar_title:hover {color:#0066cc;}
+.ajax__calendar .ajax__calendar_day:hover {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_day_active {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_month:hover {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_month_active{background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_lang:hover{background-color:#B8CDF0;color:#000000;}
+.ajax__calendar .ajax__calendar_today:hover {color:#0066cc;font-size:7pt;}
+.ajax__calendar .ajax__calendar_year:hover {background-color:#edf9ff;border-color: #0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_year_active {background-color:#edf9ff;border-color: #0066cc;color:#0066cc;}
+.divhamid{background-color:Blue;}
+
+
+
